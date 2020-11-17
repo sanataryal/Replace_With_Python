@@ -1,0 +1,7 @@
+word = input("Please Enter the word: ")
+vowel = ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')
+
+for wo in vowel:
+    if wo in word:
+        word = word.replace(wo, '$')
+print(word)
